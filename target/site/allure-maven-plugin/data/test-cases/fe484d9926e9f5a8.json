@@ -1,0 +1,360 @@
+{
+  "uid" : "fe484d9926e9f5a8",
+  "name" : "Open constructor from profile page",
+  "fullName" : "IngredientsTest.openContructorFromProfile[Browser: YANDEX]",
+  "historyId" : "a70eda3b05b40bb246770be270318ca6",
+  "time" : {
+    "start" : 1679111439781,
+    "stop" : 1679111447890,
+    "duration" : 8109
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Precondition: Create user for test",
+      "time" : {
+        "start" : 1679111442867,
+        "stop" : 1679111443818,
+        "duration" : 951
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Create and login with API",
+        "time" : {
+          "start" : 1679111442867,
+          "stop" : 1679111443818,
+          "duration" : 951
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Create user with API call",
+          "time" : {
+            "start" : 1679111442867,
+            "stop" : 1679111443353,
+            "duration" : 486
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Generate random user",
+            "time" : {
+              "start" : 1679111442867,
+              "stop" : 1679111442867,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 0,
+            "hasContent" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 1,
+          "hasContent" : true
+        }, {
+          "name" : "Login user with API call and get tokens",
+          "time" : {
+            "start" : 1679111443353,
+            "stop" : 1679111443818,
+            "duration" : 465
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 3,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 4,
+      "hasContent" : true
+    }, {
+      "name" : "$(\"open\") https://stellarburgers.nomoreparties.site/",
+      "time" : {
+        "start" : 1679111443818,
+        "stop" : 1679111445837,
+        "duration" : 2019
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Set local storage auth data",
+      "time" : {
+        "start" : 1679111445838,
+        "stop" : 1679111445865,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"localStorage\") set item([accessToken, Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MTUzNTE2OWVkMjgwMDAxYjJmMmFhMyIsImlhdCI6MTY3OTExMTQ0NywiZXhwIjoxNjc5MTEyNjQ3fQ.Xrw8YVoPUSxlElQFI_nF5fBFQnTNp830fcK9FvGGdqY])",
+        "time" : {
+          "start" : 1679111445839,
+          "stop" : 1679111445855,
+          "duration" : 16
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"localStorage\") set item([refreshToken, cd45b044ad4dac3e8a10b6cdcb38233596b8215898af3f005cb3f0985f12f6e2eb53d9ac4f4fb464])",
+        "time" : {
+          "start" : 1679111445855,
+          "stop" : 1679111445865,
+          "duration" : 10
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    }, {
+      "name" : "Click on Account Link",
+      "time" : {
+        "start" : 1679111445865,
+        "stop" : 1679111446269,
+        "duration" : 404
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"By.linkText: Личный Кабинет\") click()",
+        "time" : {
+          "start" : 1679111445865,
+          "stop" : 1679111446269,
+          "duration" : 404
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Verify page URL is 'https://stellarburgers.nomoreparties.site/account/profile'",
+      "time" : {
+        "start" : 1679111446270,
+        "stop" : 1679111446484,
+        "duration" : 214
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"webdriver\") should have url https://stellarburgers.nomoreparties.site/account/profile",
+        "time" : {
+          "start" : 1679111446270,
+          "stop" : 1679111446484,
+          "duration" : 214
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "expectedUrl",
+        "value" : "https://stellarburgers.nomoreparties.site/account/profile"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Click on constructor link",
+      "time" : {
+        "start" : 1679111446484,
+        "stop" : 1679111446706,
+        "duration" : 222
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"By.linkText: Конструктор\") click()",
+        "time" : {
+          "start" : 1679111446484,
+          "stop" : 1679111446706,
+          "duration" : 222
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Verify page URL is 'https://stellarburgers.nomoreparties.site/'",
+      "time" : {
+        "start" : 1679111446706,
+        "stop" : 1679111446712,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"webdriver\") should have url https://stellarburgers.nomoreparties.site/",
+        "time" : {
+          "start" : 1679111446706,
+          "stop" : 1679111446712,
+          "duration" : 6
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "expectedUrl",
+        "value" : "https://stellarburgers.nomoreparties.site/"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "$(\"webdriver\") close()",
+      "time" : {
+        "start" : 1679111446712,
+        "stop" : 1679111447389,
+        "duration" : 677
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Post-condition: delete created users",
+      "time" : {
+        "start" : 1679111447389,
+        "stop" : 1679111447887,
+        "duration" : 498
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "users",
+        "value" : "[AuthorizationData(accessToken=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MTUzNTE2OWVkMjgwMDAxYjJmMmFhMyIsImlhdCI6MTY3OTExMTQ0NywiZXhwIjoxNjc5MTEyNjQ3fQ.Xrw8YVoPUSxlElQFI_nF5fBFQnTNp830fcK9FvGGdqY, refreshToken=cd45b044ad4dac3e8a10b6cdcb38233596b8215898af3f005cb3f0985f12f6e2eb53d9ac4f4fb464, user=User(name=HjYgEEus klIoBdVe, email=vmY7nouE@example.com, password=kGdTOAEPA0))]"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 19,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "IngredientsTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "openContructorFromProfile[Browser: YANDEX]"
+  }, {
+    "name" : "suite",
+    "value" : "IngredientsTest"
+  }, {
+    "name" : "host",
+    "value" : "ROG"
+  }, {
+    "name" : "thread",
+    "value" : "31352@ROG.pool-1-thread-4(19)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fe484d9926e9f5a8.json",
+  "parameterValues" : [ ]
+}

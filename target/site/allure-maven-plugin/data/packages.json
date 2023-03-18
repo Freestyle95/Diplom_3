@@ -1,0 +1,438 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "",
+    "children" : [ {
+      "name" : "ingredientsTabSelection[Browser: CHROME]",
+      "uid" : "735fe612ef5f5b28",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1679111414230,
+        "stop" : 1679111425101,
+        "duration" : 10871
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "logoutFromProfilePage[Browser: CHROME]",
+      "uid" : "b767839adf7575d6",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1679111414230,
+        "stop" : 1679111429599,
+        "duration" : 15369
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "openContructorFromProfile[Browser: CHROME]",
+      "uid" : "995617d899d10007",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1679111414230,
+        "stop" : 1679111428919,
+        "duration" : 14689
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "openAccountProfilePage[Browser: CHROME]",
+      "uid" : "976dec2dd87fb434",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1679111414230,
+        "stop" : 1679111428708,
+        "duration" : 14478
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "logoutFromProfilePage[Browser: FIREFOX]",
+      "uid" : "5ed70a9053124229",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1679111428923,
+        "stop" : 1679111438884,
+        "duration" : 9961
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "openAccountProfilePage[Browser: FIREFOX]",
+      "uid" : "bc26f0457836fdb1",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1679111428924,
+        "stop" : 1679111438889,
+        "duration" : 9965
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "openContructorFromProfile[Browser: FIREFOX]",
+      "uid" : "12bea8c56881440f",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1679111429601,
+        "stop" : 1679111439325,
+        "duration" : 9724
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "ingredientsTabSelection[Browser: FIREFOX]",
+      "uid" : "f59ffcdaf8e315c2",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1679111429601,
+        "stop" : 1679111439776,
+        "duration" : 10175
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "openAccountProfilePage[Browser: YANDEX]",
+      "uid" : "c1e44b7ea9c1cb14",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1679111438893,
+        "stop" : 1679111446839,
+        "duration" : 7946
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "logoutFromProfilePage[Browser: YANDEX]",
+      "uid" : "4e137f2cdbfe07ba",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1679111438893,
+        "stop" : 1679111446835,
+        "duration" : 7942
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "openContructorFromProfile[Browser: YANDEX]",
+      "uid" : "fe484d9926e9f5a8",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1679111439781,
+        "stop" : 1679111447890,
+        "duration" : 8109
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "ingredientsTabSelection[Browser: YANDEX]",
+      "uid" : "d11db58a2a338155",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1679111439782,
+        "stop" : 1679111449033,
+        "duration" : 9251
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "loginFromLoginPage[Browser: CHROME]",
+      "uid" : "ae726fbec71b934f",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1679111447060,
+        "stop" : 1679111454005,
+        "duration" : 6945
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "loginFromRegisterPage[Browser: CHROME]",
+      "uid" : "200997abaa7d703e",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1679111447073,
+        "stop" : 1679111452456,
+        "duration" : 5383
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "loginFromForgotPasswordPage[Browser: CHROME]",
+      "uid" : "d5f98166d9606b12",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1679111447893,
+        "stop" : 1679111452885,
+        "duration" : 4992
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "loginFromRegisterPage[Browser: FIREFOX]",
+      "uid" : "dcee23a37be74608",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1679111449323,
+        "stop" : 1679111457743,
+        "duration" : 8420
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "loginFromHomePageWithLoginButton[Browser: CHROME]",
+      "uid" : "dcbee9fbf5acb8a0",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1679111449324,
+        "stop" : 1679111455146,
+        "duration" : 5822
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "loginFromLoginPage[Browser: FIREFOX]",
+      "uid" : "551fcf23c38c7aea",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1679111452461,
+        "stop" : 1679111462776,
+        "duration" : 10315
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "loginFromForgotPasswordPage[Browser: FIREFOX]",
+      "uid" : "bb04a5236edb6ee1",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1679111452892,
+        "stop" : 1679111461532,
+        "duration" : 8640
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "loginFromHomePageWithLoginButton[Browser: FIREFOX]",
+      "uid" : "b3f4d5d3f6e27a9d",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1679111454007,
+        "stop" : 1679111462614,
+        "duration" : 8607
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "loginFromRegisterPage[Browser: YANDEX]",
+      "uid" : "8498d118e69bc3f7",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1679111457746,
+        "stop" : 1679111462261,
+        "duration" : 4515
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "loginFromLoginPage[Browser: YANDEX]",
+      "uid" : "437c6fa569cdfaca",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1679111461535,
+        "stop" : 1679111472170,
+        "duration" : 10635
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "loginFromForgotPasswordPage[Browser: YANDEX]",
+      "uid" : "d908fd59d9b8327e",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1679111462264,
+        "stop" : 1679111468684,
+        "duration" : 6420
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "loginFromHomePageWithLoginButton[Browser: YANDEX]",
+      "uid" : "243f4ca8750d7bbd",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1679111462616,
+        "stop" : 1679111468693,
+        "duration" : 6077
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "successfulRegistration[Browser: CHROME]",
+      "uid" : "ab532561e70dd92",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1679111462779,
+        "stop" : 1679111469388,
+        "duration" : 6609
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "openRegistrationPageFromLoginPage[Browser: CHROME]",
+      "uid" : "9dc1e0b10a04811",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1679111468685,
+        "stop" : 1679111473327,
+        "duration" : 4642
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "incorrectPasswordError[Browser: CHROME]",
+      "uid" : "f8c0d9bd9cb217c4",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1679111468695,
+        "stop" : 1679111473343,
+        "duration" : 4648
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "incorrectPasswordError[Browser: FIREFOX]",
+      "uid" : "d79679ada27a2f84",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1679111472173,
+        "stop" : 1679111483860,
+        "duration" : 11687
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "successfulRegistration[Browser: FIREFOX]",
+      "uid" : "bd0e65bdf73fdb0e",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1679111472176,
+        "stop" : 1679111485185,
+        "duration" : 13009
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "openRegistrationPageFromLoginPage[Browser: FIREFOX]",
+      "uid" : "bc86f563397ff926",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1679111472370,
+        "stop" : 1679111483876,
+        "duration" : 11506
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "openRegistrationPageFromLoginPage[Browser: YANDEX]",
+      "uid" : "3fe25e7374d28f9",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1679111473345,
+        "stop" : 1679111481222,
+        "duration" : 7877
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "successfulRegistration[Browser: YANDEX]",
+      "uid" : "b4faeba0abcc474b",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1679111473346,
+        "stop" : 1679111483499,
+        "duration" : 10153
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "incorrectPasswordError[Browser: YANDEX]",
+      "uid" : "d32832a978bad81d",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1679111481227,
+        "stop" : 1679111485923,
+        "duration" : 4696
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "be5e18e41bf32fca5cace70290d883bb"
+  } ]
+}

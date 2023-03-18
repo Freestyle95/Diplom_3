@@ -1,6 +1,7 @@
 package org.example.pages;
 
 import com.codeborne.selenide.SelenideElement;
+import io.qameta.allure.Step;
 import org.example.models.User;
 import org.example.utils.CheckUtils;
 import org.openqa.selenium.support.FindBy;
@@ -19,33 +20,28 @@ public class RegisterPage extends BasePage {
     @FindBy(how = How.LINK_TEXT, using = "Войти")
     private SelenideElement loginLink;
 
-    public void registerWithCredentials(String name, String email, String password) {
+    @Step("Register user with name '{0}', email '{1}, password '{2}'")
+    public void registerUser(String name, String email, String password) {
         nameField.setValue(name);
         emailField.setValue(email);
         passwordField.setValue(password);
         registerButton.click();
     }
 
-    public void registerWithCredentials(User user) {
+    @Step("Register user '{0}'")
+    public void registerUser(User user) {
         nameField.setValue(user.getName());
         emailField.setValue(user.getEmail());
         passwordField.setValue(user.getPassword());
         registerButton.click();
     }
 
-    public User registerNewUser() {
-        User user = User.generateRandomUser();
-        nameField.setValue(user.getName());
-        emailField.setValue(user.getEmail());
-        passwordField.setValue(user.getPassword());
-        registerButton.click();
-        return user;
-    }
-
+    @Step("Verify error on password field")
     public void verifyErrorOnPasswordField() {
         CheckUtils.verifyErrorOnField(passwordField, "Некорректный пароль");
     }
 
+    @Step("Click Login link")
     public void clickLoginLink() {
         loginLink.click();
     }

@@ -1,4 +1,4 @@
-package org.example.utils;
+package org.example;
 
 public enum Browser {
     CHROME,

@@ -1,4 +1,6 @@
-import org.example.models.User;
+import io.qameta.allure.junit4.DisplayName;
+import org.example.Browser;
+import org.example.models.AuthorizationData;
 import org.example.pages.ForgotPasswordPage;
 import org.example.pages.HomePage;
 import org.example.pages.LoginPage;
@@ -7,27 +9,33 @@ import org.example.utils.CheckUtils;
 import org.junit.Test;
 
 import static com.codeborne.selenide.Selenide.open;
-import static com.codeborne.selenide.Selenide.page;
 
-public class LoginTest extends BaseTest{
-    @Test
-    public void loginFromLoginPage() {
-        RegisterPage registerPage = open(RegisterPage.PAGE_URL, RegisterPage.class);
-        User registeredUser = registerPage.registerNewUser();
-        CheckUtils.verifyPageUrl(LoginPage.PAGE_URL);
+public class LoginTest extends BaseTest {
 
-        LoginPage loginPage = page(LoginPage.class);
-        loginPage.login(registeredUser);
-        CheckUtils.verifyPageUrl(HomePage.PAGE_URL);
+    public LoginTest(Browser browser) {
+        super(browser);
     }
+
     @Test
+    @DisplayName("Login from login page")
+    public void loginFromLoginPage() {
+        createTestUser();
+        LoginPage loginPage = open(LoginPage.PAGE_URL, LoginPage.class);
+        loginPage.login(user);
+        CheckUtils.verifyPageUrl(HomePage.PAGE_URL);
+        CheckUtils.verifyLocalStorageContainsKeys(AuthorizationData.ACCESS_TOKEN, AuthorizationData.REFRESH_TOKEN);
+    }
+
+    @Test
+    @DisplayName("Login from home page")
     public void loginFromHomePageWithLoginButton() {
-        HomePage homePage = open(HomePage.PAGE_URL,HomePage.class);
+        HomePage homePage = open(HomePage.PAGE_URL, HomePage.class);
         homePage.clickLoginButton();
         CheckUtils.verifyPageUrl(LoginPage.PAGE_URL);
     }
 
     @Test
+    @DisplayName("Login from register page")
     public void loginFromRegisterPage() {
         RegisterPage registerPage = open(RegisterPage.PAGE_URL, RegisterPage.class);
         registerPage.clickLoginLink();
@@ -35,6 +43,7 @@ public class LoginTest extends BaseTest{
     }
 
     @Test
+    @DisplayName("Login from forgot-password page")
     public void loginFromForgotPasswordPage() {
         ForgotPasswordPage forgotPasswordPage = open(ForgotPasswordPage.PAGE_URL, ForgotPasswordPage.class);
         forgotPasswordPage.clickLoginLink();
