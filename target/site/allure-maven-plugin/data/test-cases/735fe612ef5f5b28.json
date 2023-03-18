@@ -1,0 +1,813 @@
+{
+  "uid" : "735fe612ef5f5b28",
+  "name" : "Navigating in ingredients menu with tabs",
+  "fullName" : "IngredientsTest.ingredientsTabSelection[Browser: CHROME]",
+  "historyId" : "707e3ad922905777c68356ae651666d2",
+  "time" : {
+    "start" : 1679111414230,
+    "stop" : 1679111425101,
+    "duration" : 10871
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"open\") https://stellarburgers.nomoreparties.site/",
+      "time" : {
+        "start" : 1679111419569,
+        "stop" : 1679111421017,
+        "duration" : 1448
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Verify ingredients menu is visible",
+      "time" : {
+        "start" : 1679111421146,
+        "stop" : 1679111422141,
+        "duration" : 995
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Verify element is visible",
+        "time" : {
+          "start" : 1679111421783,
+          "stop" : 1679111422140,
+          "duration" : 357
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"By.className: BurgerIngredients_ingredients__menuContainer__Xu3Mo\") should be(visible)",
+          "time" : {
+            "start" : 1679111421798,
+            "stop" : 1679111422022,
+            "duration" : 224
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "$(\"By.className: BurgerIngredients_ingredients__menuContainer__Xu3Mo\") is displayed()",
+          "time" : {
+            "start" : 1679111422023,
+            "stop" : 1679111422140,
+            "duration" : 117
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "<div class=\"BurgerIngredients_ingredients__menuContainer__Xu3Mo\">Булки\n0\n988\nФлюоресцентная булка R2-D3\n0\n1255\nКраторная булка N-200i\nСоусы\n0\n90\nСоус Spicy-X\n0\n80\nСоус фирменный Space Sauce\n0\n15\nСоус традиционный галактический\n0\n88\nСоус с шипами Антарианского плоскоходца\nНачинки\n0\n1337\nМясо бессмертных моллюсков Protostomia\n0\n3000\nГовяжий метеорит (отбивная)\n0\n424\nБиокотлета из марсианской Магнолии\n0\n988\nФиле Люминесцентного тетраодонтимформа\n0\n300\nХрустящие минеральные кольца\n0\n874\nПлоды Фалленианского дерева\n0\n762\nКристаллы марсианских альфа-сахаридов\n0\n4400\nМини-салат Экзо-Плантаго\n0\n4142\nСыр с астероидной плесенью</div>"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 2,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 3,
+      "hasContent" : true
+    }, {
+      "name" : "Verify Buns tab is active",
+      "time" : {
+        "start" : 1679111422141,
+        "stop" : 1679111422427,
+        "duration" : 286
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Verify element has class 'tab_tab_type_current__2BEPc'",
+        "time" : {
+          "start" : 1679111422275,
+          "stop" : 1679111422427,
+          "duration" : 152
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"By.xpath: .//span[text()='Булки']/..\") should have(css class \"tab_tab_type_current__2BEPc\")",
+          "time" : {
+            "start" : 1679111422275,
+            "stop" : 1679111422427,
+            "duration" : 152
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "<div class=\"tab_tab__1SPyG tab_tab_type_current__2BEPc pt-4 pr-10 pb-4 pl-10 noselect\">Булки</div>"
+        }, {
+          "name" : "expectedCssClass",
+          "value" : "tab_tab_type_current__2BEPc"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    }, {
+      "name" : "Verify Buns label is visible in menu",
+      "time" : {
+        "start" : 1679111422427,
+        "stop" : 1679111422635,
+        "duration" : 208
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Verify element is visible",
+        "time" : {
+          "start" : 1679111422554,
+          "stop" : 1679111422635,
+          "duration" : 81
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"By.xpath: .//div[@class='BurgerIngredients_ingredients__menuContainer__Xu3Mo']/h2[text()='Булки']\") should be(visible)",
+          "time" : {
+            "start" : 1679111422554,
+            "stop" : 1679111422597,
+            "duration" : 43
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "$(\"By.xpath: .//div[@class='BurgerIngredients_ingredients__menuContainer__Xu3Mo']/h2[text()='Булки']\") is displayed()",
+          "time" : {
+            "start" : 1679111422597,
+            "stop" : 1679111422635,
+            "duration" : 38
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "<h2 class=\"text text_type_main-medium mb-6 mt-10\">Булки</h2>"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 2,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 3,
+      "hasContent" : true
+    }, {
+      "name" : "Click on Sauces tab",
+      "time" : {
+        "start" : 1679111422636,
+        "stop" : 1679111422828,
+        "duration" : 192
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"By.xpath: .//span[text()='Начинки']/..\") is displayed()",
+        "time" : {
+          "start" : 1679111422649,
+          "stop" : 1679111422696,
+          "duration" : 47
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"By.xpath: .//span[text()='Начинки']/..\") is enabled()",
+        "time" : {
+          "start" : 1679111422696,
+          "stop" : 1679111422730,
+          "duration" : 34
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"By.xpath: .//span[text()='Начинки']/..\") click()",
+        "time" : {
+          "start" : 1679111422730,
+          "stop" : 1679111422828,
+          "duration" : 98
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 3,
+      "hasContent" : true
+    }, {
+      "name" : "Verify Fillings tab is active",
+      "time" : {
+        "start" : 1679111422828,
+        "stop" : 1679111423349,
+        "duration" : 521
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Verify element has class 'tab_tab_type_current__2BEPc'",
+        "time" : {
+          "start" : 1679111423001,
+          "stop" : 1679111423349,
+          "duration" : 348
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"By.xpath: .//span[text()='Начинки']/..\") should have(css class \"tab_tab_type_current__2BEPc\")",
+          "time" : {
+            "start" : 1679111423001,
+            "stop" : 1679111423349,
+            "duration" : 348
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "<div class=\"tab_tab__1SPyG tab_tab_type_current__2BEPc pt-4 pr-10 pb-4 pl-10 noselect\">Начинки</div>"
+        }, {
+          "name" : "expectedCssClass",
+          "value" : "tab_tab_type_current__2BEPc"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    }, {
+      "name" : "Verify Fillings label is visible in menu",
+      "time" : {
+        "start" : 1679111423349,
+        "stop" : 1679111423584,
+        "duration" : 235
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Verify element is visible",
+        "time" : {
+          "start" : 1679111423506,
+          "stop" : 1679111423584,
+          "duration" : 78
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"By.xpath: .//div[@class='BurgerIngredients_ingredients__menuContainer__Xu3Mo']/h2[text()='Начинки']\") should be(visible)",
+          "time" : {
+            "start" : 1679111423506,
+            "stop" : 1679111423555,
+            "duration" : 49
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "$(\"By.xpath: .//div[@class='BurgerIngredients_ingredients__menuContainer__Xu3Mo']/h2[text()='Начинки']\") is displayed()",
+          "time" : {
+            "start" : 1679111423555,
+            "stop" : 1679111423584,
+            "duration" : 29
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "<h2 class=\"text text_type_main-medium mb-6 mt-10\">Начинки</h2>"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 2,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 3,
+      "hasContent" : true
+    }, {
+      "name" : "Click on Sauces tab",
+      "time" : {
+        "start" : 1679111423584,
+        "stop" : 1679111423899,
+        "duration" : 315
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"By.xpath: .//span[text()='Соусы']/..\") is displayed()",
+        "time" : {
+          "start" : 1679111423584,
+          "stop" : 1679111423665,
+          "duration" : 81
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"By.xpath: .//span[text()='Соусы']/..\") is enabled()",
+        "time" : {
+          "start" : 1679111423666,
+          "stop" : 1679111423732,
+          "duration" : 66
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"By.xpath: .//span[text()='Соусы']/..\") click()",
+        "time" : {
+          "start" : 1679111423735,
+          "stop" : 1679111423899,
+          "duration" : 164
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 3,
+      "hasContent" : true
+    }, {
+      "name" : "Verify Sauces tab is active",
+      "time" : {
+        "start" : 1679111423899,
+        "stop" : 1679111424119,
+        "duration" : 220
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Verify element has class 'tab_tab_type_current__2BEPc'",
+        "time" : {
+          "start" : 1679111424097,
+          "stop" : 1679111424119,
+          "duration" : 22
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"By.xpath: .//span[text()='Соусы']/..\") should have(css class \"tab_tab_type_current__2BEPc\")",
+          "time" : {
+            "start" : 1679111424097,
+            "stop" : 1679111424119,
+            "duration" : 22
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "<div class=\"tab_tab__1SPyG  pt-4 pr-10 pb-4 pl-10 noselect\">Соусы</div>"
+        }, {
+          "name" : "expectedCssClass",
+          "value" : "tab_tab_type_current__2BEPc"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    }, {
+      "name" : "Verify Sauces label is visible in menu",
+      "time" : {
+        "start" : 1679111424120,
+        "stop" : 1679111424233,
+        "duration" : 113
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Verify element is visible",
+        "time" : {
+          "start" : 1679111424190,
+          "stop" : 1679111424233,
+          "duration" : 43
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"By.xpath: .//div[@class='BurgerIngredients_ingredients__menuContainer__Xu3Mo']/h2[text()='Соусы']\") should be(visible)",
+          "time" : {
+            "start" : 1679111424190,
+            "stop" : 1679111424211,
+            "duration" : 21
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "$(\"By.xpath: .//div[@class='BurgerIngredients_ingredients__menuContainer__Xu3Mo']/h2[text()='Соусы']\") is displayed()",
+          "time" : {
+            "start" : 1679111424211,
+            "stop" : 1679111424233,
+            "duration" : 22
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "<h2 class=\"text text_type_main-medium mb-6 mt-10\">Соусы</h2>"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 2,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 3,
+      "hasContent" : true
+    }, {
+      "name" : "Click on Buns tab",
+      "time" : {
+        "start" : 1679111424233,
+        "stop" : 1679111424357,
+        "duration" : 124
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"By.xpath: .//span[text()='Булки']/..\") is displayed()",
+        "time" : {
+          "start" : 1679111424234,
+          "stop" : 1679111424256,
+          "duration" : 22
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"By.xpath: .//span[text()='Булки']/..\") is enabled()",
+        "time" : {
+          "start" : 1679111424257,
+          "stop" : 1679111424278,
+          "duration" : 21
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"By.xpath: .//span[text()='Булки']/..\") click()",
+        "time" : {
+          "start" : 1679111424278,
+          "stop" : 1679111424357,
+          "duration" : 79
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 3,
+      "hasContent" : true
+    }, {
+      "name" : "Verify Buns tab is active",
+      "time" : {
+        "start" : 1679111424357,
+        "stop" : 1679111424765,
+        "duration" : 408
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Verify element has class 'tab_tab_type_current__2BEPc'",
+        "time" : {
+          "start" : 1679111424436,
+          "stop" : 1679111424765,
+          "duration" : 329
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"By.xpath: .//span[text()='Булки']/..\") should have(css class \"tab_tab_type_current__2BEPc\")",
+          "time" : {
+            "start" : 1679111424436,
+            "stop" : 1679111424765,
+            "duration" : 329
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "<div class=\"tab_tab__1SPyG tab_tab_type_current__2BEPc pt-4 pr-10 pb-4 pl-10 noselect\">Булки</div>"
+        }, {
+          "name" : "expectedCssClass",
+          "value" : "tab_tab_type_current__2BEPc"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    }, {
+      "name" : "Verify Buns label is visible in menu",
+      "time" : {
+        "start" : 1679111424765,
+        "stop" : 1679111424852,
+        "duration" : 87
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Verify element is visible",
+        "time" : {
+          "start" : 1679111424814,
+          "stop" : 1679111424852,
+          "duration" : 38
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"By.xpath: .//div[@class='BurgerIngredients_ingredients__menuContainer__Xu3Mo']/h2[text()='Булки']\") should be(visible)",
+          "time" : {
+            "start" : 1679111424814,
+            "stop" : 1679111424832,
+            "duration" : 18
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "$(\"By.xpath: .//div[@class='BurgerIngredients_ingredients__menuContainer__Xu3Mo']/h2[text()='Булки']\") is displayed()",
+          "time" : {
+            "start" : 1679111424832,
+            "stop" : 1679111424852,
+            "duration" : 20
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "<h2 class=\"text text_type_main-medium mb-6 mt-10\">Булки</h2>"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 2,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 3,
+      "hasContent" : true
+    }, {
+      "name" : "$(\"webdriver\") close()",
+      "time" : {
+        "start" : 1679111424852,
+        "stop" : 1679111425094,
+        "duration" : 242
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Post-condition: delete created users",
+      "time" : {
+        "start" : 1679111425094,
+        "stop" : 1679111425094,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "users",
+        "value" : "[]"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 47,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "IngredientsTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "ingredientsTabSelection[Browser: CHROME]"
+  }, {
+    "name" : "suite",
+    "value" : "IngredientsTest"
+  }, {
+    "name" : "host",
+    "value" : "ROG"
+  }, {
+    "name" : "thread",
+    "value" : "31352@ROG.pool-1-thread-6(21)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "735fe612ef5f5b28.json",
+  "parameterValues" : [ ]
+}
